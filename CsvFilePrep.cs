@@ -19,7 +19,7 @@
  * random EOL characters.  Sometimes tab and other times NL and/or CR+NL.
  * 
  * Of course, this can be adapted to handle other problems you might
- * encounter with files.  As always, be sure to test, test, test.
+ * encounter.  As always: test, test, test.
  * 
  * I used a slight variation of this code to process many, files 
  * (tens of Gigabytes each) during a hot cutover where was receiving the
