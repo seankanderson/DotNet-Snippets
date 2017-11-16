@@ -5,7 +5,7 @@
  * appearing between tokens qualified by quotes are removed.
  * It will remove quotes between quotes  "Sea"n" = "Sean"
  * 
- * I wrote it to prep files for SSIS which cannot handle badly formed text files.
+ * I wrote it to prep files for SSIS which cannot handle poorly formed text files.
  * 
  * Proven to work against things like this:
  * "Sean","Anderson""
@@ -14,7 +14,7 @@
  * "Se"an","Anderson"
  * ""Sean"",""Anderson""
  * 
- * It also handles any whitespace characters such as carrige returns, 
+ * It also handles any whitespace such as carrige returns, 
  * tabs, or line feed characters.  The files I was processing would have 
  * random EOL characters.  Sometimes tab and other times NL and/or CR+NL.
  * 
